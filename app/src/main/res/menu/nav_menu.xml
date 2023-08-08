@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group>
+        android:ceckableBehavior="single>
+
+        <item
+            android:title="Principal">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/nav_actividad"
+                    android:title="Actividades"/>
+                <item
+                    android:id="@+id/nav_amigos"
+                    android:icon="@drawable/nav_amigos"
+                    android:title="Amigos"/>
+            </menu>
+        </item>
+
+        <item
+            android:title="Trabajos">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/nav_proyectos"
+                    android:title="Mis proyectos"/>
+                <!--
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/nav_colab"
+                    android:title="Soy colaborador"/>
+                    -->
+            </menu>
+
+        </item>
+
+        <item
+            android:title="Perfíl">
+            <menu>
+                <item
+                    android:id="@+id/nav_cuenta"
+                    android:icon="@drawable/nav_cuenta"
+                    android:title="Cuenta"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/nav_salir"
+                    android:title="Cerrar sesión"/>
+            </menu>
+        </item>
+
+    </group>
+
+
+
+</menu>
